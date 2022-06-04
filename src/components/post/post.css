@@ -1,0 +1,146 @@
+.feedwrapper {
+    width: 100%;
+}
+
+.postTop {
+    display: flex;
+    /* margin: 10px 20px; */
+    /* margin-top: 20px; */
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+.postLeft {
+    display: flex;
+    /* background: red; */
+    align-items: center;
+    margin: 0px 11px;
+    /* flex: 1; */
+}
+
+img.postLogo {
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post {
+    /* box-shadow: 0px 0px 11px black; */
+    box-shadow: 0px 0px 35px 8px rgb(0 0 0 / 5%);
+    /* background: red; */
+    margin: 10px 20px;
+}
+
+.postWrapper {
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+
+span.postname {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+span.posttime {
+    margin-left: 12px;
+    color: grey;
+}
+
+.postRight {
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.postCentre {
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    padding: 0px 15px;
+}
+
+img.postImage {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+    /* margin: 0px 20px; */
+    margin-right: 10px;
+}
+
+span.postText {
+    margin-left: 7px;
+    /* background: red; */
+}
+.postBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+    /* margin: 10px 20px; */
+    padding: 10px 20px;
+}
+
+.postBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+    /* margin: 10px 20px; */
+    padding: 10px 20px;
+}
+
+.postBottomLeft {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+}
+
+.likebutton {
+    background: blue;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.postBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+    /* margin: 10px 20px; */
+    padding: 10px 20px;
+}
+
+.postBottomLeft {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+}
+
+.likebutton {
+    background: deepskyblue ;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.heartbutton {
+    background: tomato;
+    padding: 7px;
+    border-radius: 50%;
+    margin-right: 7px;
+    color: white;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+span.postbottomText {
+    font-weight: bold;
+}

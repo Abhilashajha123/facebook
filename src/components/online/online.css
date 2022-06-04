@@ -1,0 +1,56 @@
+.rightbarProfileImgContaine{
+    margin-right: 10px;
+}
+img.rightbrand {
+    width: 100%;
+    /* height: 40px; */
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+ul.rightbarfriendList {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0px;
+    
+}
+
+img.rightbarProfileImg {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    /* margin-right: 10px; */
+    object-fit: cover;
+}
+
+
+
+li.rightbarFriend {
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+}
+
+.rightbarProfileImgContainer {
+    margin-right: 10px;
+    display: flex;
+    position: relative;
+}
+h4.rightbarTitle {
+    margin-bottom: 10px;
+}
+h4.rightbarTitle {
+    margin-bottom: 10px;
+}
+
+span.rightbarOnline {
+    background: limegreen;
+    height: 10px;
+    width: 10px;
+    top: -2px;
+    border-radius: 50%;
+    left: 24px;
+    position: absolute;
+    right: 0;
+    border: 2px solid white;
+}

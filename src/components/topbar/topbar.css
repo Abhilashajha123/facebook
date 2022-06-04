@@ -1,0 +1,104 @@
+.topbarContainer {
+    display: flex;
+    /* justify-content: space-between; */
+    background: #1576ED;
+    align-items: center;
+    color: white;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    z-index: 99;
+}
+.topbarRight {
+    display: flex;
+    flex: 4 1;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.topbarIcons {
+    display: flex;
+}
+
+img.topbarImg {
+    height: 30px;
+    border: 50%;
+    /* background: blue; */
+    border: 1px solid #1576ED;
+    border-radius: 50%;
+}
+
+.searchbar {
+    background: white;
+    width: 522px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 12px;
+    border-radius: 14px;
+    height: 30px;
+    align-items: center;
+}
+
+
+
+input.searchInput {
+    border: none;
+    width: 100%;
+    margin-left: 10px;
+}
+input.searchInput:focus{
+    outline: none;
+}
+.topbarLinks {
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.topbarLeft {
+    flex: 2;
+}
+
+.topbarCentre {
+    flex: 5 1;
+    background: white;
+    border-radius: 13px;
+}
+.searchIcon {
+    color: gray;
+}
+
+span.topbarIconBadge {
+    color: white;
+    background: red;
+    
+    position: absolute;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 16px;
+    height: 13px;
+    
+    margin-left: -8px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.topbarIconsItem {
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+span.topbarLink {
+    margin-right: 15px;
+}
+
+.logo {
+    color: white;
+    /* background: red; */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 10px;
+}
