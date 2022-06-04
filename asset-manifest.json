@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/facebook/static/css/main.7da23ef9.css",
+    "main.js": "/facebook/static/js/main.4a388f7a.js",
+    "static/media/group.jpg": "/facebook/static/media/group.48a9569adff2ead08732.jpg",
+    "static/media/gift.png": "/facebook/static/media/gift.4a9c4d62df0cccc684e3.png",
+    "index.html": "/facebook/index.html",
+    "main.7da23ef9.css.map": "/facebook/static/css/main.7da23ef9.css.map",
+    "main.4a388f7a.js.map": "/facebook/static/js/main.4a388f7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7da23ef9.css",
+    "static/js/main.4a388f7a.js"
+  ]
+}
